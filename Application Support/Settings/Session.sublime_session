@@ -1,0 +1,788 @@
+{
+	"folder_history":
+	[
+		"/Users/daniel/Development/Projects/rollbender/contacts",
+		"/Users/daniel/Development/Projects/fabib/fabib-webstore"
+	],
+	"last_window_id": 3,
+	"settings":
+	{
+		"new_window_height": 965.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 107.0,
+				"selected_items":
+				[
+					[
+						"packin",
+						"Package Control: Install Package"
+					],
+					[
+						"Packi",
+						"Package Control: Install Package"
+					],
+					[
+						"Pa",
+						"Package Control: Install Package"
+					],
+					[
+						"Pack",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 593.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/daniel/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/daniel/Development/Projects/fabib/fabib-webstore/app/views/shared/_menu.html.erb",
+				"/Users/daniel/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+				"/Users/daniel/Library/Application Support/Sublime Text 2/Packages/RubyTest/RubyTest.sublime-settings",
+				"/Users/daniel/Library/Application Support/Sublime Text 2/Packages/User/RubyTest.sublime-settings",
+				"/Users/daniel/Development/Projects/rollbender/contacts/app/controllers/people_controller.rb",
+				"/Users/daniel/Development/Projects/rollbender/contacts/test/functional/people_controller_test.rb"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"meu_metodo",
+					"sublime",
+					"assert_response"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 202.0
+			},
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"scss",
+						"app/assets/stylesheets/products.css.scss"
+					],
+					[
+						"html",
+						"app/views/shared/_menu.html.erb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 254.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 1526.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/daniel/Development/Projects/fabib/fabib-webstore/app/controllers/products_controller.rb",
+					"settings":
+					{
+						"buffer_size": 71,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/daniel/Development/Projects/fabib/fabib-webstore/test/functional/products_controller_test.rb",
+					"settings":
+					{
+						"buffer_size": 165,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/daniel/Desktop/teste.rb",
+					"settings":
+					{
+						"buffer_size": 98,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/daniel/Development/Projects/fabib/fabib-webstore/app/assets/stylesheets/products.css.scss",
+					"settings":
+					{
+						"buffer_size": 238,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 107.0,
+				"selected_items":
+				[
+					[
+						"packin",
+						"Package Control: Install Package"
+					],
+					[
+						"Packi",
+						"Package Control: Install Package"
+					],
+					[
+						"Pa",
+						"Package Control: Install Package"
+					],
+					[
+						"Pack",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 593.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/daniel/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/daniel/Development/Projects/fabib/fabib-webstore/app/views/shared/_menu.html.erb",
+				"/Users/daniel/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+				"/Users/daniel/Library/Application Support/Sublime Text 2/Packages/RubyTest/RubyTest.sublime-settings",
+				"/Users/daniel/Library/Application Support/Sublime Text 2/Packages/User/RubyTest.sublime-settings",
+				"/Users/daniel/Development/Projects/rollbender/contacts/app/controllers/people_controller.rb",
+				"/Users/daniel/Development/Projects/rollbender/contacts/test/functional/people_controller_test.rb"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"meu_metodo",
+					"sublime",
+					"assert_response"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/daniel/Development/Projects/fabib/fabib-webstore"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/daniel/Development/Projects/fabib/fabib-webstore/app/controllers/products_controller.rb",
+							"settings":
+							{
+								"buffer_size": 71,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										71,
+										71
+									]
+								],
+								"settings":
+								{
+									"buffer_scroll_name": "93e54d4d",
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/daniel/Development/Projects/fabib/fabib-webstore/test/functional/products_controller_test.rb",
+							"settings":
+							{
+								"buffer_size": 165,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										8,
+										8
+									]
+								],
+								"settings":
+								{
+									"buffer_scroll_name": "9199d736",
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/daniel/Desktop/teste.rb",
+							"settings":
+							{
+								"buffer_size": 98,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										51,
+										51
+									]
+								],
+								"settings":
+								{
+									"buffer_scroll_name": "39695a51",
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/daniel/Development/Projects/fabib/fabib-webstore/app/assets/stylesheets/products.css.scss",
+							"settings":
+							{
+								"buffer_size": 238,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"buffer_scroll_name": "bd791441",
+									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 202.0
+			},
+			"position": "194 36 1526 987 0 0 1920 1058 ",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"scss",
+						"app/assets/stylesheets/products.css.scss"
+					],
+					[
+						"html",
+						"app/views/shared/_menu.html.erb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 254.0,
+			"status_bar_visible": true,
+			"window_id": 2,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/daniel/Development/Projects/rollbender/contacts/app/controllers/contacts_controller.rb",
+					"settings":
+					{
+						"buffer_size": 795,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/daniel/Development/Projects/rollbender/contacts/app/assets/stylesheets/main.css.scss",
+					"settings":
+					{
+						"buffer_size": 1755,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"packre",
+						"Package Control: Remove Package"
+					],
+					[
+						"packli",
+						"Package Control: List Packages"
+					],
+					[
+						"Packi",
+						"Package Control: Install Package"
+					],
+					[
+						"Pa",
+						"Package Control: Install Package"
+					],
+					[
+						"Pack",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 593.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/daniel/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/daniel/Development/Projects/fabib/fabib-webstore/app/views/shared/_menu.html.erb",
+				"/Users/daniel/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+				"/Users/daniel/Library/Application Support/Sublime Text 2/Packages/RubyTest/RubyTest.sublime-settings",
+				"/Users/daniel/Library/Application Support/Sublime Text 2/Packages/User/RubyTest.sublime-settings",
+				"/Users/daniel/Development/Projects/rollbender/contacts/app/controllers/people_controller.rb",
+				"/Users/daniel/Development/Projects/rollbender/contacts/test/functional/people_controller_test.rb"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"assert_response"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/daniel/Development/Projects/rollbender/contacts"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/daniel/Development/Projects/rollbender/contacts/app/controllers/contacts_controller.rb",
+							"settings":
+							{
+								"buffer_size": 795,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										394,
+										394
+									]
+								],
+								"settings":
+								{
+									"buffer_scroll_name": "96e0e74f",
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/daniel/Development/Projects/rollbender/contacts/app/assets/stylesheets/main.css.scss",
+							"settings":
+							{
+								"buffer_size": 1755,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										544,
+										544
+									]
+								],
+								"settings":
+								{
+									"buffer_scroll_name": "82dfb836",
+									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 202.0
+			},
+			"position": "197 44 1526 987 0 0 1920 1058 ",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"scss",
+						"app/assets/stylesheets/main.css.scss"
+					],
+					[
+						"contro",
+						"app/controllers/contacts_controller.rb"
+					],
+					[
+						"html",
+						"app/views/shared/_menu.html.erb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 254.0,
+			"status_bar_visible": true,
+			"window_id": 3,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

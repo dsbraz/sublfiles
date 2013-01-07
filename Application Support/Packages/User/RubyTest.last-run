@@ -1,0 +1,4 @@
+{
+	"last_test_run": "bundle exec ruby -Itest test/functional/products_controller_test.rb",
+	"last_test_working_dir": "/Users/daniel/Development/Projects/fabib/fabib-webstore"
+}
