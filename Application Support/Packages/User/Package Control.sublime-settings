@@ -8,6 +8,7 @@
 		"Package Control",
 		"RubyEval",
 		"RubyTest",
-		"Sass"
+		"Sass",
+		"SublimeLinter"
 	]
 }

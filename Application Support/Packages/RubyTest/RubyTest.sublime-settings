@@ -1,6 +1,6 @@
 {
-  "erb_verify_command": "erb -xT - {file_name} | ruby -c",
-  "ruby_verify_command": "ruby -c {file_name}",
+  "erb_verify_command": "erb -xT - {file_name} | ruby -cw",
+  "ruby_verify_command": "ruby -cw {file_name}",
 
   "run_ruby_unit_command": "bundle exec ruby -Itest {relative_path}",
   "run_single_ruby_unit_command": "ruby -Itest {relative_path} -n '{test_name}'",
