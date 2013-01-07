@@ -1,3 +1,5 @@
+*.cache
+*.pyc
 Session.sublime_session
 BufferScroll.bin.gz
 Auto Save Session.sublime_session
