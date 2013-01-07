@@ -1,6 +1,6 @@
 *.cache
 *.pyc
+*.last-run
 Session.sublime_session
 BufferScroll.bin.gz
 Auto Save Session.sublime_session
-Package Control.last-run
