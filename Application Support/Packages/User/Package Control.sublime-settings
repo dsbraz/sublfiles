@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"CTags",
 		"OpenFromPath",
 		"Package Control",
 		"RubyTest",
