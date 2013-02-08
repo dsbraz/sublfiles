@@ -1,13 +1,14 @@
 {
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"All Autocomplete",
 		"CTags",
+		"Emmet",
+		"FileSystem Autocompletion",
 		"OpenFromPath",
 		"Package Control",
-		"RubyTest",
 		"Sass",
-		"SublimeLinter",
-		"Theme - Nil"
+		"SublimeLinter"
 	]
 }
