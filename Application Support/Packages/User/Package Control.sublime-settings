@@ -6,7 +6,8 @@
 		"CTags",
 		"Emmet",
 		"FileSystem Autocompletion",
-		"OpenFromPath",
+		"Git",
+		"GitGutter",
 		"Package Control",
 		"Sass",
 		"SublimeLinter"
