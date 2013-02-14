@@ -10,3 +10,76 @@
 -q
 -\\q
 -quit
+-[1,2,3];
+-hd it
+-;
+-tl it;
+-[1,2,3];
+-tl it;
+-use "/Users/daniel/Desktop/teste.sml"
+-;
+-list_product([5]);
+-list_product([]);
+-list_product([5,2]);
+-use "/Users/daniel/Desktop/teste.sml"
+-;
+-list_product([5,2]);
+-val xs = [1,2,3];
+-hd xs;
+-hd xs * 2;
+-hd xs * tl xs;
+-(hd xs) * (tl xs);
+-tl xs;
+-(hd xs) * hd (tl xs);
+-(hd xs) * tl (tl xs);
+-(hd xs) * hd tl (tl xs);
+-(hd xs) * hd (tl (tl xs));
+-5::xs;
+-val xs = [(1,2), (3,4)];
+-#1 (hd xs)
+-;
+-#1 (hd xs) + #1 (hd (tl xs));
+-val l = [];
+-null l;
+-val dts = [(1,2,3), (4,5,6)];
+-hd dts;
+-if null tds
+-then 0
+-else if #2 (hd dts) = 2
+-then 1
+-else 2;
+-if null dts
+-then 0
+-else if #2 (hd dts) = 2
+-then 1
+-else 2;
+-fun number_in_month (dts: int*int*int list, month: int) =\n  if null dts\n  then 0\n  else 1;
+-let i = 0;
+-;;
+-;
+-;;
+-;;;;
+-1
+-val i = 0;
+-val l = [1,2,3];
+-4::l;
+-5 :: l;
+-          fun merge (xs: (int*int*int) list, ys: (int*int*int) list) =\n            hd xs :: merge(tl xs, ys);
+-merge ([(1,2,3), (4,5,6)], [(7,8,9)]);
+-          fun merge (xs: (int*int*int) list, ys: (int*int*int) list) =\n            if null xs then [] else hd xs :: merge(tl xs, ys);
+-merge ([(1,2,3), (4,5,6)], [(7,8,9)]);
+-use "teste.sml"
+-;
+-1
+-;
+-use "unit1.sml"
+-;
+-use "teste.sml";
+-val l = [];
+-hd l;
+-tl l;
+-"ab" ^ "c";
+-Int.toString(1);
+-"ab" ^ " " ^ "c";
+-val s = SOME ("abc");
+-valOf s;
