@@ -83,3 +83,13 @@
 -"ab" ^ " " ^ "c";
 -val s = SOME ("abc");
 -valOf s;
+-use "unit1.sml"
+-;
+-val l = [1];
+-tl l;
+-null tl l;
+-null (tl l);
+-hd l;
+-val l = []
+-;
+-null (tl l);
