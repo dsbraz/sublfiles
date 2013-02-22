@@ -13,7 +13,10 @@
 	[
 		"Vintage"
 	],
-	"rulers": [80],
+	"rulers":
+	[
+		80
+	],
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true

@@ -93,3 +93,19 @@
 -val l = []
 -;
 -null (tl l);
+-use "unit2.sml"
+-;
+-datatype dtype = Str of string | Mi of int;
+-fun f(x) =
+-case x of
+-Str s => s
+-| Mi i => i;
+-fun f x =
+-case x of
+-String => "Ola"
+-Mi => 1+2;
+-fun f x =
+-case x of
+-Str => "Ola"
+-| Mi => 1 + 2;
+-val NONE = SOME 2;
