@@ -109,3 +109,4 @@
 -Str => "Ola"
 -| Mi => 1 + 2;
 -val NONE = SOME 2;
+-1+1;

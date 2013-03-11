@@ -21,6 +21,8 @@ def plugin_loaded():
 
 
 class GitGutterCommand(sublime_plugin.WindowCommand):
+    region_names = ['deleted_top', 'deleted_bottom',
+                    'deleted_dual', 'inserted', 'changed']
 
     def run(self):
         self.view = self.window.active_view()
@@ -31,15 +33,12 @@ class GitGutterCommand(sublime_plugin.WindowCommand):
         self.clear_all()
         inserted, modified, deleted = ViewCollection.diff(self.view)
         self.lines_removed(deleted)
-        self.lines_added(inserted)
-        self.lines_modified(modified)
+        self.bind_icons('inserted', inserted)
+        self.bind_icons('changed', modified)
 
     def clear_all(self):
-        self.view.erase_regions('git_gutter_deleted_top')
-        self.view.erase_regions('git_gutter_deleted_bottom')
-        self.view.erase_regions('git_gutter_deleted_dual')
-        self.view.erase_regions('git_gutter_inserted')
-        self.view.erase_regions('git_gutter_changed')
+        for region_name in self.region_names:
+            self.view.erase_regions('git_gutter_%s' % region_name)
 
     def lines_to_regions(self, lines):
         regions = []
@@ -60,36 +59,25 @@ class GitGutterCommand(sublime_plugin.WindowCommand):
             bottom_lines.remove(line)
             top_lines.remove(line)
 
-        self.lines_removed_top(top_lines)
-        self.lines_removed_bottom(bottom_lines)
-        self.lines_removed_dual(dual_lines)
+        self.bind_icons('deleted_top', top_lines)
+        self.bind_icons('deleted_bottom', bottom_lines)
+        self.bind_icons('deleted_dual', dual_lines)
 
-    def lines_removed_top(self, lines):
-        regions = self.lines_to_regions(lines)
-        scope = 'markup.deleted.git_gutter'
-        icon = '../GitGutter/icons/deleted_top'
-        self.view.add_regions('git_gutter_deleted_top', regions, scope, icon)
+    def icon_path(self, icon_name):
+        if int(sublime.version()) < 3014:
+            path = '..'
+            extn = ''
+        else:
+            path = 'Packages'
+            extn = '.png'
+        return path + '/GitGutter/icons/' + icon_name + extn
 
-    def lines_removed_bottom(self, lines):
+    def bind_icons(self, event, lines):
         regions = self.lines_to_regions(lines)
-        scope = 'markup.deleted.git_gutter'
-        icon = '../GitGutter/icons/deleted_bottom'
-        self.view.add_regions('git_gutter_deleted_bottom', regions, scope, icon)
+        event_scope = event
+        if event.startswith('deleted'):
+            event_scope = 'deleted'
+        scope = 'markup.%s.git_gutter' % event_scope
+        icon = self.icon_path(event)
+        self.view.add_regions('git_gutter_%s' % event, regions, scope, icon)
 
-    def lines_removed_dual(self, lines):
-        regions = self.lines_to_regions(lines)
-        scope = 'markup.deleted.git_gutter'
-        icon = '../GitGutter/icons/deleted_dual'
-        self.view.add_regions('git_gutter_deleted_dual', regions, scope, icon)
-
-    def lines_added(self, lines):
-        regions = self.lines_to_regions(lines)
-        scope = 'markup.inserted.git_gutter'
-        icon = '../GitGutter/icons/inserted'
-        self.view.add_regions('git_gutter_inserted', regions, scope, icon)
-
-    def lines_modified(self, lines):
-        regions = self.lines_to_regions(lines)
-        scope = 'markup.changed.git_gutter'
-        icon = '../GitGutter/icons/changed'
-        self.view.add_regions('git_gutter_changed', regions, scope, icon)
