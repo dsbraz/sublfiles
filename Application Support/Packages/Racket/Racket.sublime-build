@@ -1,5 +1,0 @@
-{
-	"cmd": ["racket", "$file"],
-	"selector": "source.rkt",
-	"file_regex": "^(.*?):(\\d+):(\\d+):\\s(.|\\n)+"
-}
