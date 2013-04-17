@@ -7,6 +7,7 @@
 		"FileSystem Autocompletion",
 		"Git",
 		"GitGutter",
+		"jQuery",
 		"Package Control",
 		"Puppet",
 		"RSpec",
@@ -14,7 +15,6 @@
 		"SideBarEnhancements",
 		"SML (Standard ML)",
 		"SublimeLinter",
-		"SublimeREPL",
-		"Theme - Soda"
+		"SublimeREPL"
 	]
 }
